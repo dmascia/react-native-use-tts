@@ -6,7 +6,7 @@
   "author": "David Mascia",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dmascia/aws-bedrock-agentcore-runtime-example.git"
+    "url": "https://github.com/dmascia/react-native-use-tts.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
