@@ -1,0 +1,38 @@
+{
+  "name": "react-native-use-tts",
+  "version": "1.0.0",
+  "description": "Production-quality reference implementation for interacting with AWS Bedrock AgentCore runtimes.",
+  "license": "MIT",
+  "author": "David Mascia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmascia/aws-bedrock-agentcore-runtime-example.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.75",
+    "react-native-tts": ">=4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "@types/react": "^19.2.7",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "react-native-tts": "^4.1.1"
+  }
+}
